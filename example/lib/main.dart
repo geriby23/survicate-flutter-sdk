@@ -37,18 +37,18 @@ class _MyAppState extends State<MyApp> {
               children: [
                 ElevatedButton(
                   onPressed: () {
-                    survicateFlutterSdk.invokeEvent('SURVEY');
+                    survicateFlutterSdk.invokeEvent('LOGIN_SURVEY');
                   },
-                  child: Text('Invoke event SURVEY'),
+                  child: Text('Invoke event LOGIN_SURVEY'),
                 ),
                 SizedBox(
                   height: 5.0,
                 ),
                 ElevatedButton(
                   onPressed: () {
-                    survicateFlutterSdk.enterScreen('SCREEN');
+                    survicateFlutterSdk.enterScreen('LOGIN2');
                   },
-                  child: Text('Enter screen SCREEN'),
+                  child: Text('Enter screen LOGIN2'),
                 ),
                 ElevatedButton(
                   onPressed: () {
